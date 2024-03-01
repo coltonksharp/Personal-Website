@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    min-height: 8vh;
+    text-transform: uppercase;
+    background-color: black;
+}
+
+.logo {
+    color: white;
+    letter-spacing: 5px;
+    font-family: 20px;
+}
+
+.nav-links {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.image {
+    display: grid;
+    height: 100%;
+    background-color: black;
+}
+
+.center-fit {
+    max-width: 100%;
+    max-height: 200%;
+    margin: auto;
+}
+
+.NameText {
+    width: 100%;
+    position: relative;
+    margin-top: -40%;
+}
+
+.NameText h1 {
+    text-align: center;
+    color: white;
+    font-size: 150px;
+}

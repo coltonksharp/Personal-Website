@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="home.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <nav>
+        <ul class="nav-links">
+            <li>
+                <a href="home.html">Home</a>
+            </li>
+            <li>
+                <a href="about.html">About</a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/channel/UCZfmSRoxE5UyjBN5S-GE92g/featured">Youtube</a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/_coltonsharp_/">Instagram</a>
+            </li>
+            <li>
+                <a href="#" id="music">Relax</a>
+                <audio id="speculations">
+                    <source src="Speculations.mp3" type="audio/mp3">
+                </audio>
+                <script>
+                    var speculations = document.getElementById("speculations");
+                    var play = document.getElementById("music");
+
+                    play.onclick = function() {
+                        speculations.play();
+                    }
+                </script>
+            </li>
+        </ul>
+    </nav>
+    <div class="image">
+        <img class="center-fit" src="DSC03082.jpg">
+        <div class="NameText">
+            <h1>Colton Sharp</h1>
+        </div>
+    </div>
+</body>
+</html>

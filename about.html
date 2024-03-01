@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="about.css">
+</head>
+<body>
+    <nav>
+        <ul class="nav-links">
+            <li>
+                <a href="home.html">Home</a>
+            </li>
+            <li>
+                <a href="about.html">About</a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/channel/UCZfmSRoxE5UyjBN5S-GE92g/featured">Youtube</a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/_coltonsharp_/">Instagram</a>
+            </li>
+            <li>
+                <a href="#" id="music">Relax</a>
+                <audio id="speculations">
+                    <source src="Speculations.mp3" type="audio/mp3">
+                </audio>
+                <script>
+                    var speculations = document.getElementById("speculations");
+                    var play = document.getElementById("music");
+
+                    play.onclick = function() {
+                        speculations.play();
+                    }
+                </script>
+            </li>
+        </ul>
+    </nav>
+    <section class="bio">
+        <div class="container">
+            <div class="text">
+                <h1>Biography</h1>
+                <br><br><br><br>
+                    <p>
+                    I'm an undergraduate student studying information technology.
+                    Currently, on the side, I'm studying film and Korean. 
+                    I don't have any idea where I'll be in ten years but my one overall goal is to be comfortable with my life in the future. 
+                    One day, maybe I will be able to travel to different parts of the globe and express my work. :)
+                    </p>
+                <br><br><br><br>
+                <h2>Skills & Accomplishments</h2>
+                <br><br><br><br>
+                    <li>Film Production & Photography Design</li>
+                    <li>Python (Programming Language)</li>
+                    <li>C# (Object-Oriented Programming Language)</li>
+                    <li>Basic Korean</li>
+                    <li>Missouri All-State Band</li>
+                    <li>Self-Business Managment (Youtube)</li>
+                <br><br><br><br>
+                <h3>Future Goals</h3>
+                <br><br><br><br>
+                    <li>Acquire web development job</li>
+                    <li>Run personal business on the side</li>
+                    <li>Become fluent in a second language</li>
+                    <li>Release music for people to enjoy</li>
+                    <li>Move to Korea for a couple of years</li>
+                    <li>Work in the entertainment industry (USA/KR)</li>
+                <br><br><br><br>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
